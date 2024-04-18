@@ -13,5 +13,25 @@ namespace group5_FinalProject
         {
 
         }
+
+        protected void cmdGo_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("LeetCodeProblem2.aspx");
+        }
+
+        protected void cmdGo1_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("LeetCodeProblem29.aspx");
+        }
+
+        protected void cmdGo2_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("LeetCodeProblem88.aspx");
+        }
+
+        protected void cmdGo3_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("LeetCodeProblem224.aspx");
+        }
     }
 }
