@@ -82,6 +82,7 @@
     <Compile Include="default.aspx.designer.cs">
       <DependentUpon>default.aspx</DependentUpon>
     </Compile>
+    <Compile Include="LeetCode224Solution.cs" />
     <Compile Include="LeetCode29Solution.cs" />
     <Compile Include="LeetCodeProblem224.aspx.cs">
       <DependentUpon>LeetCodeProblem224.aspx</DependentUpon>
