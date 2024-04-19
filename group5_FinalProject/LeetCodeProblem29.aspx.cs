@@ -7,16 +7,29 @@ using System.Web.UI.WebControls;
 
 namespace group5_FinalProject
 {
-    public partial class LeetCodeProblem29 : System.Web.UI.Page
+    public partial class LeetCodeProblem3 : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
 
         }
+
+        protected void cmdGo_Click(object sender, EventArgs e)
+        {
+            LeetCode29Solution result29 = new LeetCode29Solution();
+            int dividend; 
+            int divisor;
+            int result;
+            dividend = 7;
+            divisor = -3;
+            result=result29.Divide(dividend, divisor);
+            lblProblem29Result.Text = $"Result:{result}";
+
+        }
+    }
     }
 
     
     
     
     
-}
