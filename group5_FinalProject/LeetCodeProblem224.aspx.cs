@@ -1,4 +1,15 @@
-﻿using System;
+﻿/*
+# Name:Will Padgett
+# email:Padgetwg@mail.uc.edu
+# Assignment Title: Assignment Final
+# Due Date:4/23/2024
+# Course: IS 3050
+# Semester/Year:2 / 3
+# Brief Description: This project is a solution off of github displayed in the webform
+# Citations:GPT 4, w3 schools
+# Anything else that's relevant:
+    */
+using System;
 using System.Collections.Generic;
 using System.Data.SqlClient;
 using System.Linq;
