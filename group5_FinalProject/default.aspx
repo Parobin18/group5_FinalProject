@@ -8,13 +8,13 @@
      <style>
         .container {
             display: flex;
-            justify-content: center; /* Center content horizontally */
-            align-items: center; /* Center content vertically */
-            height: 100vh; /* Optionally, set a height for the container */
+            justify-content: center; 
+            align-items: center; 
+            height: 100vh; 
         }
 
         .centered-text {
-            text-align: center; /* Center text horizontally */
+            text-align: center; 
         }
     </style>
 </head>
@@ -29,7 +29,7 @@
                 </asp:TableRow>
                 <asp:TableRow>
                     <asp:TableCell>
-                        <asp:Button ID="cmdGo2" runat="server" Text="Problem 88 (Easy)" OnClick="cmdGo2_Click" BackColor="#FFC470"/>
+                        <asp:Button ID="cmdGo2" runat="server" Text="Problem 13 (Easy)" OnClick="cmdGo2_Click" BackColor="#FFC470"/>
                     </asp:TableCell>
                     <asp:TableCell>
                         <asp:Button ID="cmdGo" runat="server" Text="Problem 2 (Medium)" OnClick="cmdGo_Click" BackColor="#DD5746"/>

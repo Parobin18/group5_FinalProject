@@ -13,5 +13,12 @@ namespace group5_FinalProject
         {
 
         }
+       protected void cmdGo_Click(object sender, EventArgs e)
+        {
+            LeetCodeProblem13Solution solution=new LeetCodeProblem13Solution();
+            string romanNumeral = "III";
+            int result13=solution.RomanToInt(romanNumeral);
+            lblProblem13Result.Text= $"Integer Value: {result13}";
+        }
     }
 }

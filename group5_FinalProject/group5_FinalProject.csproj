@@ -68,6 +68,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="default.aspx" />
+    <Content Include="finalproject.JPG" />
     <Content Include="LeetCodeProblem224.aspx" />
     <Content Include="LeetCodeProblem2.aspx" />
     <Content Include="LeetCodeProblem29.aspx" />
@@ -85,6 +86,7 @@
     <Compile Include="LeetCode224Solution.cs" />
     <Compile Include="LeetCode29Solution.cs" />
     <Compile Include="LeetCode2Solution.cs" />
+    <Compile Include="LeetCodeProblem13Solution.cs" />
     <Compile Include="LeetCodeProblem224.aspx.cs">
       <DependentUpon>LeetCodeProblem224.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

@@ -12,7 +12,7 @@
             <asp:Table ID="tblProblem29" runat="server">
                 <asp:TableRow>
                     <asp:TableCell>
-                        Problem Description:
+                        Problem Description: Medium
                     </asp:TableCell>
                 </asp:TableRow>
                 <asp:TableRow>
@@ -37,7 +37,7 @@ Return the quotient after dividing dividend by divisor.
                 </asp:TableRow>
                 <asp:TableRow>
                     <asp:TableCell>
-                        <br />
+                        Expected Result: -2
                     </asp:TableCell>
                 </asp:TableRow>
                 <asp:TableRow>
