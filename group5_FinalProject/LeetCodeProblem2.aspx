@@ -13,24 +13,57 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title>LeetCode Problem 2</title>
+    <title></title>
 </head>
 <body>
     <form id="form1" runat="server">
         <div>
-            <h1>LeetCode Problem 2 Description</h1>
-            <p>
-                The problem asks you to add two single digit numbers stored in reverse order and return them as a linked list. The numbers can include zero, but have no leading zeroes.
-            </p>
-            <h2>Test Case</h2>
-            <p>
-                Input: <br />
-                List 1: 2 -> 4 -> 3<br />
-                List 2: 5 -> 6 -> 4<br />
-            </p>
-            <h3>Solution:</h3>
-            <asp:Literal ID="SolutionLiteral" runat="server"></asp:Literal>
-         </div>
+                        <asp:Table ID="tblProblem2" runat="server">
+                <asp:TableRow>
+                    <asp:TableCell>
+                        Problem Description: Medium
+                    </asp:TableCell>
+                </asp:TableRow>
+                <asp:TableRow>
+                    <asp:TableCell>
+                        You are given two non-empty linked lists representing two non-negative integers. The digits are stored in reverse order, and each of their nodes contains a single digit. Add the two numbers and return the sum as a linked list.
+
+You may assume the two numbers do not contain any leading zero, except the number 0 itself.
+
+                    </asp:TableCell>
+                </asp:TableRow>
+                <asp:TableRow>
+                    <asp:TableCell>
+                        <br />
+                    </asp:TableCell>
+                </asp:TableRow>
+                <asp:TableRow>
+                    <asp:TableCell>
+                        Leet Code Test Case: first group = 2, 4, 3; second group = 5, 6, 4
+                    </asp:TableCell>
+                </asp:TableRow>
+                <asp:TableRow>
+                    <asp:TableCell>
+                        Expected Result: 7 0 8
+                    </asp:TableCell>
+                </asp:TableRow>
+                <asp:TableRow>
+                    <asp:TableCell>
+                        <br />
+                    </asp:TableCell>
+                </asp:TableRow>
+                <asp:TableRow>
+                    <asp:TableCell>
+                        <asp:Button ID="cmdGo" runat="server" Text="Click to Run Test Case" OnClick="cmdGo_Click" />
+                    </asp:TableCell>
+                </asp:TableRow>
+                <asp:TableRow>
+                    <asp:TableCell>
+                        <asp:Label ID="lblProblem2Result" runat="server" Text="Test Result"></asp:Label>
+                    </asp:TableCell>
+                </asp:TableRow>
+            </asp:Table>  
+        </div>
     </form>
 </body>
 </html>

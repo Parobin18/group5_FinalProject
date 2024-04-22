@@ -21,21 +21,10 @@ namespace group5_FinalProject
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            ListNode l1 = new ListNode(2);
-            l1.next = new ListNode(4);
-            l1.next.next = new ListNode(3);
-
-            ListNode l2 = new ListNode(5);
-            l2.next = new ListNode(6);
-            l2.next.next = new ListNode(4);
-
-            ListNode result = AddTwoNumbers(l1, l2);
-
-            // Print the result (assuming you have a method to display it)
-            DisplayListNode(result);
+            
         }
 
-        // Define ListNode class (assuming you haven't defined it already)
+        
         public class ListNode
         {
             public int val;
@@ -47,34 +36,58 @@ namespace group5_FinalProject
             }
         }
 
-        // AddTwoNumbers method
-        public ListNode AddTwoNumbers(ListNode l1, ListNode l2)
+        
+        public class Solution
         {
-            ListNode dummyHead = new ListNode(0);
-            ListNode p = l1, q = l2, curr = dummyHead;
-            int carry = 0;
-
-            while (p != null || q != null)
+            public ListNode AddTwoNumbers(ListNode l1, ListNode l2)
             {
-                int x = (p != null) ? p.val : 0;
-                int y = (q != null) ? q.val : 0;
-                int sum = carry + x + y;
-                carry = sum / 10;
-                curr.next = new ListNode(sum % 10);
-                curr = curr.next;
-                if (p != null) p = p.next;
-                if (q != null) q = q.next;
-            }
+                ListNode dummyHead = new ListNode(0);
+                ListNode p = l1, q = l2, curr = dummyHead;
+                int carry = 0;
 
-            if (carry > 0)
-            {
-                curr.next = new ListNode(carry);
-            }
+                while (p != null || q != null)
+                {
+                    int x = (p != null) ? p.val : 0;
+                    int y = (q != null) ? q.val : 0;
+                    int sum = carry + x + y;
+                    carry = sum / 10;
+                    curr.next = new ListNode(sum % 10);
+                    curr = curr.next;
+                    if (p != null) p = p.next;
+                    if (q != null) q = q.next;
+                }
 
-            return dummyHead.next;
+                if (carry > 0)
+                {
+                    curr.next = new ListNode(carry);
+                }
+
+                return dummyHead.next;
+            }
         }
 
-        // Method to display ListNode (assuming you have a method to display it)
+        protected void cmdGo_Click(object sender, EventArgs e)
+        {
+          
+            Solution solution = new Solution();
+
+            
+            ListNode l1 = new ListNode(2);
+            l1.next = new ListNode(4);
+            l1.next.next = new ListNode(3);
+
+            ListNode l2 = new ListNode(5);
+            l2.next = new ListNode(6);
+            l2.next.next = new ListNode(4);
+
+            
+            ListNode result = solution.AddTwoNumbers(l1, l2);
+
+            
+            DisplayListNode(result);
+        }
+
+        
         private void DisplayListNode(ListNode node)
         {
             string result = "";
@@ -83,7 +96,9 @@ namespace group5_FinalProject
                 result += node.val + " ";
                 node = node.next;
             }
-            SolutionLiteral.Text = "Solution: " + result;
+
+            
+            lblProblem2Result.Text = "Result: " + result.Trim();
         }
     }
 }

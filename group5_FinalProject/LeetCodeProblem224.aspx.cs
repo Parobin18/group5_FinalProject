@@ -26,7 +26,7 @@ namespace group5_FinalProject
                 lblProblem224Result.Text = $"Result: {result}";
                 lblError.Text = ""; // Clear any previous error messages
             }  
-            catch (Exception ex)
+            catch (Exception)
             {
                 // Display an error message if something goes wrong (e.g., invalid input)
                 lblProblem224Result.Text = "Result:";
