@@ -21,6 +21,7 @@
 <body>
     <form id="form1" runat="server">
         <div class="container">
+            <asp:Image ID="Image1" runat="server" ImageUrl="~/finalproject.JPG" />
             <asp:Table ID="Table1" runat="server">
                 <asp:TableRow>
                     <asp:TableCell ColumnSpan="4" CssClass="centered-text">

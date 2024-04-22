@@ -24,13 +24,13 @@ namespace group5_FinalProject
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
 
         /// <summary>
-        /// tblProblem29 control.
+        /// tblProble13 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Table tblProblem29;
+        protected global::System.Web.UI.WebControls.Table tblProble13;
 
         /// <summary>
         /// cmdGo control.
