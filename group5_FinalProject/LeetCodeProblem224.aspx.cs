@@ -25,7 +25,7 @@ namespace group5_FinalProject
                 int result = resultCalculator.Calculate(s);
                 lblProblem224Result.Text = $"Result: {result}";
                 lblError.Text = ""; // Clear any previous error messages
-            }
+            }  
             catch (Exception ex)
             {
                 // Display an error message if something goes wrong (e.g., invalid input)
