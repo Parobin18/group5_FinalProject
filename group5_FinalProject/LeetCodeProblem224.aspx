@@ -36,7 +36,7 @@
                 </asp:TableRow>
                 <asp:TableRow>
                     <asp:TableCell>
-                         Leet Code output: 2
+                         Leet Code output: 3
                     </asp:TableCell>
                 </asp:TableRow>
                 <asp:TableRow>
