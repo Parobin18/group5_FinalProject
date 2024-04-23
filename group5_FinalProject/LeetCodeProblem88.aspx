@@ -1,4 +1,15 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="LeetCodeProblem88.aspx.cs" Inherits="group5_FinalProject.LeetCodeProblem4" %>
+﻿<!--
+        # Name: Parker Robinson
+# email: robsinp4@mail.uc.edu
+# Assignment Title: Final Project
+# Due Date:4/23/2024
+# Course: IS 3050
+# Semester/Year: Spring/2024
+# Brief Description: This project is the html for showing the LeetCode problem that I solved.
+# Citations: ChatGPT
+# Anything else that's relevant:
+    -->
+<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="LeetCodeProblem88.aspx.cs" Inherits="group5_FinalProject.LeetCodeProblem4" %>
 
 <!DOCTYPE html>
 

@@ -1,4 +1,15 @@
-﻿using System;
+﻿/*
+ * # Name: Parker Robinson
+# email: robinsp4@mail.uc.edu
+# Assignment Title: Final Project
+# Due Date:4/23/2024
+# Course: IS 3050
+# Semester/Year: Spring/2024
+# Brief Description: This project tests my leetcode answer.
+# Citations: ChatGPT
+# Anything else that's relevant:
+*/
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Runtime.CompilerServices;
